@@ -1,0 +1,35 @@
+1. mysql workbranch
+
+2. extenton VSCode
+-PHP intelephense
+-laravel artisan
+-laravel snippsets
+-laravel blade snppsets
+-lravel blade spacer
+-lravel goto view
+
+3. instalasi
+instal xampp
+- cek php (termnal : php -v)
+instal composer : website getcomposer -> get starter->install
+- cek composer (termnal : composer -v)
+- cek versi composer (termnal : composer -V)
+
+4. membuat project laravel
+- buat folder baru (bisa di luar htdocs)
+- masuk ke folder via termnal
+- composer create-project laravel/laravel nama-aplikasi
+- masuk folder aplikasi via terminal
+- jalankan lokal developement server via terminal ( php artisan serve)
+- memeatikan server (CRTL+C)
+alternatve
+
+* agar bisa membuat projet offline
+1. instal laravel global intaler via terminal (composer global require laravel/installer)
+2.
+skip
+
+struktur folder
+controlers : app->http->controlers
+models: app->models
+view : resources->views
